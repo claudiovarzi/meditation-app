@@ -1,4 +1,4 @@
-ul {
+.ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,21 +7,21 @@ ul {
     background-color: #fff;
 }
 
-ul li a {
+.ul li a {
     font-size: 1rem;
     padding: 15px;
     letter-spacing: 0.0125rem;
     font-weight: 500;
 }
 
-ul li a:hover {
+.ul li a:hover {
     color: #fff;
     background-color: #FFB2A6;
     border-radius: 10px;
 }
 
 @media screen and (max-width: 999px) {
-    ul {
+    .ul {
         display: flex;
         flex-direction: column;
         justify-content: space-around;

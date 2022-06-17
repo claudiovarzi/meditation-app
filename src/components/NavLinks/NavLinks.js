@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function NavLinks(props) {
 	return (
-		<ul>
+		<ul className={styles.ul}>
 			<li onClick={() => props.closeMobileMenu()}>
 				<Link to="/">Home</Link>
 			</li>
