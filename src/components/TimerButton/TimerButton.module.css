@@ -1,0 +1,15 @@
+.section {
+    width: 100px;
+    margin: 100px 0;
+}
+
+.playButton, .pauseButton {
+    height: 100%;
+    width: 100px;
+    cursor: pointer;
+    color: #FFB2A6;
+}
+
+.pauseButton {
+    color: #6867AC;
+}

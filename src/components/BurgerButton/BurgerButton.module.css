@@ -1,0 +1,14 @@
+.burger_div {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.burger_icon {
+    color: #6867AC;
+    height: 2rem;
+    width: 2rem;
+}

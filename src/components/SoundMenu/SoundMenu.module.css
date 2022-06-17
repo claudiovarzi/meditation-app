@@ -1,0 +1,23 @@
+.form {
+    width: 33%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.soundMenu {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #6867AC;
+    width: 150px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #FFB2A6;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .form {
+        width: 100%;
+    }
+}
