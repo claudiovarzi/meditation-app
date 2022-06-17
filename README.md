@@ -43,11 +43,11 @@ User can explore four main routes:
 <ul>
 <li>the <strong>home page</strong>, </li>
 
-<li>the<strong>Why section</strong>, which contains the 13 biggest benefits of meditation, </li>
+<li>the <strong>Why section</strong>, which contains the 13 biggest benefits of meditation, </li>
 
-<li>the<strong>How section</strong>, which explains the principal steps to practice meditation, </li>
+<li>the <strong>How section</strong>, which explains the principal steps to practice meditation, </li>
 
-<li>the<strong>Meditate section</strong>, which lets the user setup his meditation session with background sounds and duration, and start the meditation timer </li>
+<li>the <strong>Meditate section</strong>, which lets the user setup his meditation session with background sounds and duration, and start the meditation timer. </li>
 </ul>
 
 ### Built With
@@ -99,7 +99,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Project Repository: [meditation-app](https://github.com/claudiovarzi/meditation-app)
 
-Project Website: [Calmly - Netlify]()
+Project Website: [Calmly - Netlify](https://calmly.netlify.app/)
 
 ## Acknowledgements
 
