@@ -24,7 +24,7 @@ export default function MeditateSection() {
 	const audio = isPlaying ? (
 		<audio className={styles.audio} autoPlay loop src={sound.url}></audio>
 	) : (
-		<audio className={styles.audio} autoPlay loop src={''}></audio>
+		<audio className={styles.audio} autoPlay loop src=""></audio>
 	);
 
 	const currentUI = isPlaying ? (
@@ -108,7 +108,6 @@ export default function MeditateSection() {
 					seconds: inputTime.seconds,
 				};
 			});
-			console.log(inputTime);
 		}
 	}, [isPlaying]);
 
