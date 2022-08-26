@@ -53,6 +53,7 @@ User can explore four main routes:
 ### Built With
 
 - [React](https://it.reactjs.org/)
+- [react-router-dom-v6](https://reactrouter.com/docs/en/v6/upgrading/v5)
 - [CSS modules](https://github.com/css-modules/css-modules)
 - [react-responsive](https://www.npmjs.com/package/react-responsive)
 - [react-icons](https://react-icons.github.io/react-icons/)
@@ -103,7 +104,10 @@ Project Website: [Calmly - Netlify](https://calmly.netlify.app/)
 
 ## Acknowledgements
 
-- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
+- [React](https://it.reactjs.org/)
 - [CSS modules](https://github.com/css-modules/css-modules)
 - [react-router-dom-v6](https://reactrouter.com/docs/en/v6/upgrading/v5)
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [react-responsive](https://www.npmjs.com/package/react-responsive)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [Awesome README](https://github.com/matiassingers/awesome-readme)

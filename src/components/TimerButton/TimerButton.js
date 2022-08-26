@@ -11,6 +11,7 @@ export default function TimerButton({ isPlaying, startMeditation }) {
 
 	return (
 		<section className={styles.section} onClick={startMeditation}>
+			<p className={styles.label}>Start</p>
 			{buttonType}
 		</section>
 	);

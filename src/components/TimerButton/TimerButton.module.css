@@ -3,6 +3,10 @@
     margin: 100px 0;
 }
 
+.label {
+    text-align: center;
+}
+
 .playButton, .pauseButton {
     height: 100%;
     width: 100px;

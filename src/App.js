@@ -1,9 +1,8 @@
-import React from 'react';
 import Navbar from './components/Navbar/Navbar.js';
-import HomeSection from './components/HomeSection/HomeSection.js';
-import WhySection from './components/WhySection/WhySection';
-import HowSection from './components/HowSection/HowSection';
-import MeditateSection from './components/MeditateSection/MeditateSection';
+import HomeSection from './pages/HomeSection/HomeSection.js';
+import WhySection from './pages/WhySection/WhySection';
+import HowSection from './pages/HowSection/HowSection';
+import MeditateSection from './pages/MeditateSection/MeditateSection';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 

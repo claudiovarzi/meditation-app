@@ -7,7 +7,9 @@ export default function Footer() {
 			<p>
 				made with 🧘 by{' '}
 				<strong>
-					<a href="mailto:varziclaudio@gmail.com">Claudio Varzi</a>
+					<a className={styles.contact} href="mailto:varziclaudio@gmail.com">
+						Claudio Varzi
+					</a>
 				</strong>{' '}
 				| Copyright © 2022
 			</p>

@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './HowSection.module.css';
-import SectionHeadline from '../SectionHeadline/SectionHeadline';
-import CtaButton from '../CtaButton/CtaButton';
-import Card from '../Card/Card';
-import HeadlineData from '../../data/HeadlineData';
-import howSectionData from '../../data/howSectionData';
+import SectionHeadline from '../../components/SectionHeadline/SectionHeadline';
+import CtaButton from '../../components/CtaButton/CtaButton';
+import Card from '../../components/Card/Card';
+import headLineData from '../../data/headLineData.json';
+import howSectionData from '../../data/howSectionData.json';
+import meditation from '../../assets/img/meditation.svg';
 
 export default function HowSection() {
 	const cards = howSectionData.map((item) => {
@@ -23,9 +24,9 @@ export default function HowSection() {
 		<main className={styles.main}>
 			<div className={styles.howContainer}>
 				<SectionHeadline
-					img={HeadlineData.how.url}
-					title={HeadlineData.how.title}
-					subtitle={HeadlineData.how.subtitle}
+					img={meditation}
+					title={headLineData.how.title}
+					subtitle={headLineData.how.subtitle}
 				/>
 				<section className={styles.cardGrid}>{cards}</section>
 				<CtaButton />

@@ -20,7 +20,28 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 999px) {
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        top: 10vh;
+        right: 0;
+        border-top: 2px solid #6867AC;
+        border-bottom: 2px solid #6867AC;
+        width: 100vw;
+        height: 90vh;
+        margin: 0 auto;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
     .ul {
         display: flex;
         flex-direction: column;

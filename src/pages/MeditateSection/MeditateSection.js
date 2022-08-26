@@ -1,11 +1,11 @@
 import React from 'react';
-import SoundMenu from '../SoundMenu/SoundMenu';
+import SoundMenu from '../../components/SoundMenu/SoundMenu';
 import styles from './MeditateSection.module.css';
 import { forestUrl, parkUrl, rainUrl, riverUrl, wavesUrl } from '../../data/soundTrackData';
 import Bell from '../../assets/audio/bell.mp3';
-import TimerButton from '../TimerButton/TimerButton';
-import TimerInput from '../TimerInput/TimerInput';
-import CountDown from '../CountDown/CountDown';
+import TimerButton from '../../components/TimerButton/TimerButton';
+import TimerInput from '../../components/TimerInput/TimerInput';
+import CountDown from '../../components/CountDown/CountDown';
 
 export default function MeditateSection() {
 	const [sound, setSound] = React.useState({

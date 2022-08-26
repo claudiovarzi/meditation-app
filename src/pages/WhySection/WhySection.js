@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './WhySection.module.css';
-import SectionHeadline from '../SectionHeadline/SectionHeadline';
-import CtaButton from '../CtaButton/CtaButton';
-import Card from '../Card/Card';
-import HeadlineData from '../../data/HeadlineData';
-import whySectionData from '../../data/whySectionData.js';
+import SectionHeadline from '../../components/SectionHeadline/SectionHeadline';
+import CtaButton from '../../components/CtaButton/CtaButton';
+import Card from '../../components/Card/Card';
+import headLineData from '../../data/headLineData.json';
+import whySectionData from '../../data/whySectionData.json';
+import brain from '../../assets/img/brain.svg';
 
 export default function WhySection() {
 	const cards = whySectionData.map((item) => {
@@ -22,9 +23,9 @@ export default function WhySection() {
 		<main className={styles.main}>
 			<div className={styles.whyContainer}>
 				<SectionHeadline
-					img={HeadlineData.why.url}
-					title={HeadlineData.why.title}
-					subtitle={HeadlineData.why.subtitle}
+					img={brain}
+					title={headLineData.why.title}
+					subtitle={headLineData.why.subtitle}
 				/>
 				<section className={styles.cardGrid}>{cards}</section>
 				<CtaButton />

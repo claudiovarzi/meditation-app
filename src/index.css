@@ -32,3 +32,9 @@ button {
   margin-top: 30px;
 }
 
+button:hover {
+  background-color: #fff;
+  color: #FFB2A6;
+  outline: 2px solid #FFB2A6;
+}
+
