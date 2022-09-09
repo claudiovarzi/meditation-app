@@ -1,0 +1,126 @@
+{
+    "navLinks": {
+        "why": "Perché",
+        "how": "Come",
+        "meditate": "Medita"
+    },
+    "homeSection": {
+        "subtitle": "la meditazione resa semplice"
+    },
+    "whySection": {
+        "title": "I 13 maggiori benefici della meditazione",
+        "subtitle": "Sebbene la ricerca sulla meditazione non sia così solida come quella riguardante la nutrizione o l'esercizio fisico, c'è un motivo per cui esiste da migliaia di anni. Stiamo appena iniziando a capire meglio quanto possa essere benefica per molti aspetti della vita: dalla malattia e gestione del dolore, al sonno, al controllo delle emozioni. Ecco i 13 maggiori benefici della meditazione. Clicca su ciascun beneficio per maggiori dettagli.",
+        "card_1": {
+            "title": "Maggior concentrazione",
+            "description": "La meditazione è una pratica in cui ci si focalizza sulla nostra stessa attenzione, cercando di rendersi conto quando essa svanisce. Questo migliora la nostra concentrazione nella vita di tutti i giorni."
+        },
+        "card_2": {
+            "title": "Più creatività",
+            "description": "Alcuni studi hanno dimostrato che le persone dedite alla meditazione consapevole ottenevano risultati migliori in compiti che richiedevano loro di elaborare nuove idee."    
+        },
+        "card_3": {
+            "title": "Immunità aumentata",
+            "description": "Il rilassamento e la meditazione consapevole potenziano l'immunità, la resistenza a tumori e virus e riducono il rischio di recidiva del cancro al seno."
+            },
+        "card_4": {
+            "title": "Migliore memoria",
+            "description": "Le persone che praticano la meditazione consapevole sono in grado di concentrarsi meglio, bloccare le distrazioni, migliorare la memoria e aumentare la produttività."
+            },
+        "card_5": {
+            "title": "Meno stress",
+            "description": "È stato dimostrato che la meditazione consapevole aiuta le persone a lavorare meglio sotto pressione, a far fronte ai problemi e a sentirsi meno stressate."
+            },
+        "card_6": {
+            "title": "Meno ansia",
+            "description": "La meditazione ci aiuta a razionalizzare pensieri, emozioni e sensazioni spaventose o sconvolgenti, con calma, distacco e maggiore controllo."
+            },
+        "card_7": {
+            "title": "Aumento della materia grigia",
+            "description": "Più materia grigia porta alla stabilità emotiva e a una maggiore concentrazione durante la vita quotidiana. La meditazione aiuta anche a ridurre il declino cognitivo."
+            },
+        "card_8": {
+            "title": "Equilibrio emotivo",
+            "description": "La meditazione aiuta ad affrontare stati emotivi malsani, traumi, nevrosi e comportamenti nevrotici che derivano da un ego torturato e traumatizzato."
+            },
+        "card_9": {
+            "title": "Maggior fertilità",
+            "description": "Le donne hanno maggiori probabilità di concepire quando sono più rilassate. Il rilassamento riduce lo stress, che influisce sul numero e sulla motilità degli spermatozoi e aumenta la fertilità maschile."
+            },
+        "card_10": {
+            "title": "Allevia la sindrome del colon irritabile",
+            "description": "Quando i pazienti affetti da sindrome del colon irritabile hanno iniziato a praticare la meditazione 2 volte al giorno, i sintomi di gonfiore, diarrea e costipazione sono migliorati."
+            },
+        "card_11": {
+            "title": "Abbassa la pressione sanguigna",
+            "description": "Uno studio della Harvard Medical School ha scoperto che la meditazione abbassa la pressione sanguigna rendendo il corpo meno reattivo agli ormoni dello stress."
+            },
+        "card_12": {
+            "title": "Potere antinfiammatorio",
+            "description": "Lo stress porta all'infiammazione, uno stato legato a malattie cardiache, artrite, asma e psoriasi. Il rilassamento può aiutare migliorando la risposta allo stress."
+            },
+        "card_13": {
+            "title": "Calma generale",
+            "description": "In una mente meditativa, il pensiero è consapevole, mentre in una mente ordinaria, è il pensiero che comanda. In una mente meditativa, un pensiero sconvolgente è solamente un altro pensiero."
+            }
+    },
+    "howSection": {
+        "title": "Come meditare",
+        "subtitle": "La meditazione aiuta a migliorare la concentrazione, stimolare la creatività e ridurre lo stress. Questi semplici passaggi ti aiuteranno ad iniziare. Clicca su ogni passaggio per maggiori dettagli.",
+        "card_1": {
+            "title": "Scegli un luogo",
+            "description": "Scegli un luogo comodo dove non verrai interrotto o non avrai distrazioni."
+        },
+        "card_2": {
+            "title": "Mettiti comodo",
+		    "description": "Indossa abiti comodi e larghi. Puoi anche usare una coperta, un lenzuolo o un cuscino, se lo desideri."    
+        },
+        "card_3": {
+            "title": "Definisci la durata",
+		    "description": "Non pretendere troppo da te stesso all'inizio. Va bene iniziare con una meditazione di 5-10 minuti per poi aumentare."
+            },
+        "card_4": {
+            "title": "Scegli un souno di sottofondo",
+		    "description": "Dai priorità ai suoni della natura. Puoi anche meditare in silenzio se vuoi."
+            },
+        "card_5": {
+            "title": "Trova una postura comoda",
+		    "description": "Puoi sederti sul pavimento o su una sedia, stare in piedi, camminare o sdraiarti. Gioca con diverse posizioni."
+            },
+        "card_6": {
+            "title": "Prepara la mente",
+		    "description": "Prenditi un momento per identificare i pensieri e i sentimenti che stai provando. Quindi sposta la tua attenzione sulla tua posizione fisica."
+            },
+        "card_7": {
+            "title": "Respira profondamente",
+		    "description": "Porta l'attenzione al tuo respiro. Nota ogni inspirazione ed espirazione. Fare respiri profondi aiuta a rilassare la mente e il corpo."
+            },
+        "card_8": {
+            "title": "Concentrati sul presente",
+		    "description": "Quando sorprendi la tua mente a vagare nei pensieri, torna al tuo corpo, al tuo respiro e al momento presente."
+            },
+        "card_9": {
+            "title": "Lascia andare pensieri ed emozioni",
+		    "description": "Quando noti pensieri o emozioni in arrivo, scegli di non concentrarti su di essi. Lasciali venire, lasciali andare, senza giudizio."
+            }
+    },
+    "meditateSection": {
+        "soundMenu": {
+            "label": "Suono",
+            "options": {
+                "silence": "Silenzio",
+                "forest": "Bosco",
+                "park": "Parco",
+                "rain": "Pioggia",
+                "river": "Fiume",
+                "waves": "Onde"
+            }
+        },
+        "timerInput": "Durata",
+        "timerButton": {
+            "start": "Inizia",
+            "pause": "Pausa"
+        }
+    },
+    "ctaButton": "medita",
+    "footer": "creato con 🧘 da"
+}

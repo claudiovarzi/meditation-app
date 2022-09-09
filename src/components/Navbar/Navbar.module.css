@@ -4,3 +4,40 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+.separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languageList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+}
+
+.dropDown {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.lngIcon {
+    font-size: 1.5rem;
+}
+
+.languageList:hover {
+    color: #fff;
+    background-color: #FFB2A6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .languageList {
+        margin-right: 0;
+    }
+}

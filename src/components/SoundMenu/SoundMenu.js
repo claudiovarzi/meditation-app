@@ -1,10 +1,13 @@
 import React from 'react';
 import styles from './SoundMenu.module.css';
+import { useTranslation } from 'react-i18next';
 
 export default function SoundMenu(props) {
+	const { t } = useTranslation();
+
 	return (
 		<form className={styles.form}>
-			<label htmlFor="soundName">Sound</label>
+			<label htmlFor="soundName">{t('meditateSection.soundMenu.label')}</label>
 			<br />
 			<select
 				className={styles.soundMenu}
@@ -13,12 +16,12 @@ export default function SoundMenu(props) {
 				onChange={props.changeSound}
 				name="soundName"
 			>
-				<option value="silence">Silence</option>
-				<option value="forest">Forest</option>
-				<option value="park">Park</option>
-				<option value="rain">Rain</option>
-				<option value="river">River</option>
-				<option value="waves">Waves</option>
+				<option value="silence">{t('meditateSection.soundMenu.options.silence')}</option>
+				<option value="forest">{t('meditateSection.soundMenu.options.forest')}</option>
+				<option value="park">{t('meditateSection.soundMenu.options.park')}</option>
+				<option value="rain">{t('meditateSection.soundMenu.options.rain')}</option>
+				<option value="river">{t('meditateSection.soundMenu.options.river')}</option>
+				<option value="waves">{t('meditateSection.soundMenu.options.waves')}</option>
 			</select>
 		</form>
 	);

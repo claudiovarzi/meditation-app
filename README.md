@@ -41,7 +41,7 @@ This is a simply meditation website made to facilitate meditation practice and l
 User can explore four main routes:
 
 <ul>
-<li>the <strong>home page</strong>, </li>
+<li>the <strong>Home page</strong>, </li>
 
 <li>the <strong>Why section</strong>, which contains the 13 biggest benefits of meditation, </li>
 
@@ -57,6 +57,8 @@ User can explore four main routes:
 - [CSS modules](https://github.com/css-modules/css-modules)
 - [react-responsive](https://www.npmjs.com/package/react-responsive)
 - [react-icons](https://react-icons.github.io/react-icons/)
+- [react-country-flag](https://github.com/danalloway/react-country-flag)
+- [react-i18next](https://react.i18next.com/)
 
 ## Getting Started
 
@@ -109,5 +111,7 @@ Project Website: [Calmly - Netlify](https://calmly.netlify.app/)
 - [react-router-dom-v6](https://reactrouter.com/docs/en/v6/upgrading/v5)
 - [react-icons](https://react-icons.github.io/react-icons/)
 - [react-responsive](https://www.npmjs.com/package/react-responsive)
+- [react-country-flag](https://github.com/danalloway/react-country-flag)
+- [react-i18next](https://react.i18next.com/)
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 - [Awesome README](https://github.com/matiassingers/awesome-readme)

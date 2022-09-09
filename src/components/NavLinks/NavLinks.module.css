@@ -32,8 +32,8 @@
         position: absolute;
         top: 10vh;
         right: 0;
-        border-top: 2px solid #6867AC;
-        border-bottom: 2px solid #6867AC;
+        border-top: 2px solid #FFB2A6;
+        border-bottom: 2px solid #FFB2A6;
         width: 100vw;
         height: 90vh;
         margin: 0 auto;
@@ -49,8 +49,8 @@
         position: absolute;
         top: 10vh;
         right: 0;
-        border-top: 2px solid #6867AC;
-        border-bottom: 2px solid #6867AC;
+        border-top: 2px solid #FFB2A6;
+        border-bottom: 2px solid #FFB2A6;
         width: 100vw;
         height: 100vh;
         max-height: 500px;

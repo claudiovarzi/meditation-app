@@ -3,18 +3,20 @@ import styles from './WhySection.module.css';
 import SectionHeadline from '../../components/SectionHeadline/SectionHeadline';
 import CtaButton from '../../components/CtaButton/CtaButton';
 import Card from '../../components/Card/Card';
-import headLineData from '../../data/headLineData.json';
 import whySectionData from '../../data/whySectionData.json';
 import brain from '../../assets/img/brain.svg';
+import { useTranslation } from 'react-i18next';
 
 export default function WhySection() {
+	const { t } = useTranslation();
+
 	const cards = whySectionData.map((item) => {
 		return (
 			<Card
 				key={item.id}
-				title={item.title}
+				title={t(`whySection.card_${item.id}.title`)}
 				backgroundColor={item.background}
-				description={item.description}
+				description={t(`whySection.card_${item.id}.description`)}
 			/>
 		);
 	});
@@ -24,8 +26,8 @@ export default function WhySection() {
 			<div className={styles.whyContainer}>
 				<SectionHeadline
 					img={brain}
-					title={headLineData.why.title}
-					subtitle={headLineData.why.subtitle}
+					title={t('whySection.title')}
+					subtitle={t('whySection.subtitle')}
 				/>
 				<section className={styles.cardGrid}>{cards}</section>
 				<CtaButton />

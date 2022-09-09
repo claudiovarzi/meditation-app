@@ -1,0 +1,126 @@
+{
+    "navLinks": {
+        "why": "Why",
+        "how": "How",
+        "meditate": "Meditate"
+    },
+    "homeSection": {
+        "subtitle": "meditation made simple"
+    },
+    "whySection": {
+        "title": "13 Biggest benefits of meditation",
+        "subtitle": "Although the research on meditation isn't as robust as nutrition or exercise there is a reason why it’s been around for thousands of years. We’re just starting to get a better understanding of how beneficial it can be for many aspects of life, from disease and pain management, to sleep, to control of emotions. Here are the 13 biggest benefits of meditation. Click on each benefit for more details.",
+        "card_1": {
+            "title": "Better focus",
+            "description": "Meditation is a practice of focusing our attention and being aware of when it drifts. This improves our focus outside our meditation session."
+        },
+        "card_2": {
+            "title": "More creativity",
+            "description": "Study showed that people who practiced mindful meditation performed better on a task that asked them to come up with new ideas."    
+        },
+        "card_3": {
+            "title": "Increased immunity",
+            "description": "Relaxation and mindful meditation boosted immunity, resistance to tumours and viruses and reduced the risk of breast cancer recurrence."
+            },
+        "card_4": {
+            "title": "Better memory",
+            "description": "People who practiced mindful meditation were able to focus, block distractions, improve their rapid memory recall & increase their productivity."
+            },
+        "card_5": {
+            "title": "Less stress",
+            "description": "Mindful meditation has been shown to help people perform better under pressure, cope with situation, while feeling less stressed."
+            },
+        "card_6": {
+            "title": "Less anxiety",
+            "description": "Meditation helps us look at scary or upsetting thoughts, emotions and sensations rationally, with calmness, detachment and greater control."
+            },
+        "card_7": {
+            "title": "More gray matter",
+            "description": "More gray matter leads to emotional stability and heightened focus during daily life. Meditation also helps reduce the decline of cognitive functioning."
+            },
+        "card_8": {
+            "title": "Emotional balance",
+            "description": "Meditation help deal with unhealthy emotional states, traumas, neurosis and neurotic behavior that results from a tortured and traumatized ego."
+            },
+        "card_9": {
+            "title": "Increased fertility",
+            "description": "Women are more likely to conceive when they are relaxed. Relaxation lowers stress, that impacts sperm count and motility, and boosts male fertility."
+            },
+        "card_10": {
+            "title": "Relieves irritable bowel syndrome",
+            "description": "When patients suffering from irritable bowel syndrome began practising meditation 2x a day, symptoms of bloating, diarrhea and constipation improved."
+            },
+        "card_11": {
+            "title": "Lowers blood pressure",
+            "description": "A study at Harvard Medical School found that meditation lowered blood pressure by making the body less responsive to stress hormones."
+            },
+        "card_12": {
+            "title": "Anti-inflammatory",
+            "description": "Stress leads to inflammation, a state linked to heart disease, arthritis, asthma and psoriasis. Relaxation can help by switching off the stress response."
+            },
+        "card_13": {
+            "title": "Calmness",
+            "description": "In meditative mind, the thought is witnessed, while in an ordinary mind, the thought is the boss. In meditative mind, upsetting thought is just another thought."
+            }
+    },
+    "howSection": {
+        "title": "How to meditate",
+        "subtitle": "Meditation helps increase focus, stimulate creativity and decrease stress. These simple steps will help you get started. Click on each step for more details.",
+        "card_1": {
+            "title": "Select a location",
+            "description": "Choose a comfortable place where you will not be interrupted or have distractions."
+        },
+        "card_2": {
+            "title": "Get comfortable",
+		    "description": "Wear comfortable and loose clothing. You can also use a blanket, pillow or cushion if you want."    
+        },
+        "card_3": {
+            "title": "Set aside some time",
+		    "description": "Be easy on yourself. It is okay to start with a 5-10 minute meditation and work up from there."
+            },
+        "card_4": {
+            "title": "Choose a background sound",
+		    "description": "Prioritize nature sounds. You can choose silence if you want."
+            },
+        "card_5": {
+            "title": "Find a comfortable posture",
+		    "description": "You can sit on the floor or in a chair, stand, walk, or lie down. Play around with different positions."
+            },
+        "card_6": {
+            "title": "Settle your mind",
+		    "description": "Take a moment to identify the thoughts and feelings you are having. Then switch your focus to your physical position."
+            },
+        "card_7": {
+            "title": "Take some deep breaths",
+		    "description": "Bring your awareness to your breath. Notice each inhalation and exhalation. Taking deep breaths helps relax your mind and body."
+            },
+        "card_8": {
+            "title": "Focus on the present",
+		    "description": "When you find your mind wandering, return to your body, to your breath and to the present moment."
+            },
+        "card_9": {
+            "title": "Let your thoughts and emotions go",
+		    "description": "When you notice thoughts or emotions coming up, choose not to focus on them. Let them come, let them go, without judgment."
+            }
+    },
+    "meditateSection": {
+        "soundMenu": {
+            "label": "Sound",
+            "options": {
+                "silence": "Silence",
+                "forest": "Forest",
+                "park": "Park",
+                "rain": "Rain",
+                "river": "River",
+                "waves": "Waves"
+            }
+        },
+        "timerInput": "Duration",
+        "timerButton": {
+            "start": "Start",
+            "pause": "Pause"
+        }
+    },
+    "ctaButton": "meditate",
+    "footer": "made with 🧘 by"
+}

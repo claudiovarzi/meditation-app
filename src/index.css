@@ -38,3 +38,7 @@ button:hover {
   outline: 2px solid #FFB2A6;
 }
 
+ul {
+  list-style-type: none;
+}
+

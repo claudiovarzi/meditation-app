@@ -3,19 +3,21 @@ import styles from './HowSection.module.css';
 import SectionHeadline from '../../components/SectionHeadline/SectionHeadline';
 import CtaButton from '../../components/CtaButton/CtaButton';
 import Card from '../../components/Card/Card';
-import headLineData from '../../data/headLineData.json';
 import howSectionData from '../../data/howSectionData.json';
 import meditation from '../../assets/img/meditation.svg';
+import { useTranslation } from 'react-i18next';
 
 export default function HowSection() {
+	const { t } = useTranslation();
+
 	const cards = howSectionData.map((item) => {
 		return (
 			<Card
 				key={item.id}
 				position={item.position}
-				title={item.title}
+				title={t(`howSection.card_${item.id}.title`)}
 				backgroundColor={item.background}
-				description={item.description}
+				description={t(`howSection.card_${item.id}.description`)}
 			/>
 		);
 	});
@@ -25,8 +27,8 @@ export default function HowSection() {
 			<div className={styles.howContainer}>
 				<SectionHeadline
 					img={meditation}
-					title={headLineData.how.title}
-					subtitle={headLineData.how.subtitle}
+					title={t('howSection.title')}
+					subtitle={t('howSection.subtitle')}
 				/>
 				<section className={styles.cardGrid}>{cards}</section>
 				<CtaButton />

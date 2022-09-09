@@ -1,10 +1,13 @@
 import React from 'react';
 import styles from './TimerInput.module.css';
+import { useTranslation } from 'react-i18next';
 
 export default function TimerInput(props) {
+	const { t } = useTranslation();
+
 	return (
 		<form className={styles.form}>
-			<label htmlFor="timerInput">Duration</label>
+			<label htmlFor="timerInput">{t('meditateSection.timerInput')}</label>
 			<br />
 			<div className={styles.inputContainer}>
 				<input
